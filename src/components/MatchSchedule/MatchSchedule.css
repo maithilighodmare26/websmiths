@@ -1,0 +1,82 @@
+.schedule-page {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    background-color: #d3d3d3;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-btn.active, .filter-btn:hover {
+    background-color: #00704a;
+    color: white;
+  }
+  
+  .match-day {
+    margin-top: 20px;
+  }
+  
+  .match-day h3 {
+    font-size: 1.2em;
+    padding: 8px 0;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  .match-event {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .event-details {
+    max-width: 70%;
+  }
+  
+  .series {
+    font-weight: bold;
+  }
+  
+  .match, .venue {
+    color: #555;
+  }
+  
+  .event-time {
+    text-align: right;
+    max-width: 30%;
+  }
+  
+  .time {
+    font-weight: bold;
+  }
+  
+  .time-details {
+    font-size: 0.9em;
+    color: #666;
+  }
+  

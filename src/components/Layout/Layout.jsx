@@ -5,9 +5,11 @@ import Turnaments from '../Tournament/Turnaments'
 import Profile from '../Profile/Profile'
 import Contact from '../Contact/Contact';
 import Registration from '../Registration/Registration'
-import Matches from '../Matches/Matches'
+import ScoreCard from '../ScoreCard/ScoreCard'; 
 import Login from '../Login/Login'
-
+import MatchHistory from '../MatchHistory/MatchHistory'
+import MatchSchedule from '../MatchSchedule/MatchSchedule'
+import PlayerInfo from '../PlayerInfo/PlayerInfo'
 function Layout() {
     return (
         <div>
@@ -15,13 +17,16 @@ function Layout() {
                 <Navbar />
                 <Routes>
                     <Route path='/' element={<Home />} />
-                    <Route path='/matches' element={<Matches />} />
                     <Route path='/turnaments' element={<Turnaments/>} />
                     <Route path='/profile' element={<Profile/>} />
                     <Route path='/contact' element={<Contact/>} />
                     <Route path='/registor' element={<Registration/>} />
                     <Route path='/login' element={<Login/>} />
-                    
+                    <Route path='/login' element={<Login />} />
+                    <Route path='/scorecard' element={<ScoreCard/>} /> 
+                    <Route path='/MatchHistory'element={<MatchHistory/>} />
+                    <Route path='/MatchSchedule' element={<MatchSchedule/>}/>
+                    <Route path='/PlayerInfo' element={<PlayerInfo/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

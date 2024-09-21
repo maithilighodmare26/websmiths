@@ -1,0 +1,90 @@
+.match-history-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .match-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .crr {
+    font-size: 0.8em;
+    color: #f00;
+  }
+  
+  .day-info {
+    color: red;
+  }
+  
+  .batting-section, .bowling-section {
+    margin-top: 20px;
+  }
+  
+  .batting-table, .bowling-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .batting-table th, .bowling-table th,
+  .batting-table td, .bowling-table td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .batting-table th, .bowling-table th {
+    background-color: #f7f7f7;
+  }
+  
+  .batting-table td:first-child,
+  .bowling-table td:first-child {
+    text-align: left;
+  }
+  
+  .key-stats-section {
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .key-stats-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .key-stats-section ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .key-stats-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .recent-section {
+    margin-top: 20px;
+  }
+  
+  .recent-section h4 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .recent-section p {
+    display: inline-block;
+    font-family: monospace;
+  }
+  
